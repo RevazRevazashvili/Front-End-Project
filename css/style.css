@@ -1,0 +1,704 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+html {
+    font-size: 16px;
+    line-height: 1;
+  }
+.maincenter{
+    width: 94%;
+    margin: auto;
+}
+#mode{
+    float: right;
+    overflow: hidden;
+    margin-top: 10px;
+    width: 20%;
+}
+#mode #day{
+    border-radius: 10px;
+    background-color: white;
+    padding-left: 0;
+}
+#mode #night{
+    border-radius: 10px;
+    background-color: white;
+    padding-left: 0;
+}
+#day {
+    border: none;
+    color: white;
+    display: inline-block;
+    margin: 4px 2px;
+    margin-left: 50%;
+    cursor: pointer;
+  }
+#night{
+    border: none;
+    color: white;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+#mode #day img{
+    width: 40px;
+    height: 40px;
+    
+}
+#mode #night img{
+    width: 40px;
+    height: 40px;
+}
+/* -----------------------------------------index----------------------------------------- */
+/* header */
+header img{
+    width: 5.12%;
+    height: auto;
+    float: left;
+    margin-left: 1.46%;
+    margin-top: 10px;
+}
+header h1{
+    color: brown;
+    font-size: 3rem;
+    float: left;
+    line-height: 1;
+    padding-left: 27%;
+    width: 70%;
+}
+nav{
+    margin-left: 33%;
+    padding-left: 26%;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+    overflow: hidden;
+}
+nav ul li a{
+    font-size: 1.125rem;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: black;
+}
+nav ul li a:hover{
+    color: brown;
+}
+nav ul li a:active{
+    font-weight: bolder;
+    color: red;
+}
+/* end of header */
+
+/* main */
+main{
+    clear: both;
+}
+main .first{
+    background-image: url(../images/main/grape-tree.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-size: auto;
+}
+main .first h2{
+    font-size: 3.75rem;
+    color: white;
+    padding-top: 30vh;
+    text-align: center;
+}
+main .first h3{
+    font-size: 1.875rem;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+main .freePhoto{
+    max-height: 250px;
+    overflow: hidden;
+}
+main>img{
+    width: 100%;
+    height: auto;
+}
+main .second{
+    width: 100%;
+    height: 60vh;
+}
+main .second .ins{
+    float: left;
+    overflow: hidden;
+    width: 25%;
+}
+main .second .ins h2{
+    color: #858585;
+    font-size: 3.125rem;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+main .second .ins p{
+    color: #b8b8b8;
+    font-size: 1.25rem;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+main .second p{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    color: #050505;
+    font-size: 0.9375rem;
+    line-height: 25px;
+    padding-top: 50px;
+}
+main .second .img1{
+    width: 25%;
+    float: left;
+    overflow: hidden;
+    height: auto;
+    padding-top: 50px;
+    padding-left: 10%;
+}
+main .second .img2{
+    width: 25%;
+    float: left;
+    overflow: hidden;
+    height: auto;
+    padding-top: 50px;
+    padding-left: 10%;  
+}
+/* end of main */
+
+/* footer */
+footer{
+    position: relative;
+    margin-top: 0;
+    background-image: url(../images/footer/back.jpg);
+    background-repeat: no-repeat;
+}
+footer h2{
+    color: white;
+    font-size: 2rem;
+    line-height: 35.2px;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 50px;
+}
+footer input{
+    margin: 55px 40px;
+    padding-top: 0;
+}
+footer input[type=text],input[type=email],input[type=phone],input[type=submit]{
+    background-color: white;
+    height: 45px;
+    padding: 10px 16px;
+    font-size: 0.9rem;
+    line-height: 1;
+    border-radius: 6px;
+    border: gray 1.5px solid;
+    box-shadow: lightgray 2px;
+}
+footer input[type=submit]{
+    background-color: pink;
+    width: 13.6%;
+}
+/* end of footer */
+
+@media screen and (max-width: 1366px){
+    :root{
+        font-size: 1.25rem;
+    }
+}
+@media screen and (max-width: 978px){
+    :root{
+        font-size: 1.5rem;
+    }
+    header h1{
+        width: 60%;
+    }
+    header a img{
+        width: 80px;
+        height: 80px;
+    }
+    header h1{
+        font-size: 2.5rem;
+    }
+    .maincenter a{
+        font-size: 0.6375rem;
+    }
+    main .first h2{
+        font-size: 2.5rem;
+    }
+    main .first h3{
+        font-size: 1.2rem;
+    }
+   .second{
+        width: 90%;
+        height: 50vh;
+    } 
+    main .second .ins{
+        width: 100%;
+    }
+    main .second .ins h2{
+        text-align: justify;
+        padding: 0;
+    }
+    main .second .ins p{
+        text-align: justify;
+        padding: 0;
+        padding-top: 10px;
+    }
+    main .second>p{
+        text-align: justify;
+        width: 100%;
+    }
+    main .second .img1{
+        padding-left: 50%;
+        width: 100%;
+    }
+    main .second .img2{
+        display: none;
+    }
+    footer{
+        height: 70vh;
+    }
+    footer input{
+        margin: 10px 60px;
+        padding-top: 0;
+    }
+    nav{
+        margin-left: 25%;
+        padding-left: 25%;
+        padding-bottom: 50px;
+        margin-top: 50px;
+        overflow: hidden;
+    }
+    nav ul li a{
+        font-size: 16px;
+        padding: 5px;
+        margin-bottom: 10px;
+        color: black;
+    }
+    #mode #day{
+        margin-left: 0;
+    }
+    #mode #night{
+        float: right;
+    }
+}
+/* -----------------------------------------end of index----------------------------------------- */
+
+/* ----------------------------------------- Bc--------------------------------------------------- */
+
+/* main */
+.Bcmain h1{
+    height: 50vh;
+    background-position: center;
+    background-size: auto;
+    background-image: url(../images/Bc/old-wooden-barrel-wine-whiskey-aging-front-wall-copy-space-202769353.jpg);
+}
+.Bcmain h1{
+    color: #ffffff;
+    font-size: 3.75rem;
+    line-height: 1;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin: 0.67em 0;
+    padding-left: 50px;
+    padding-top: 70px;
+    display: block;
+}
+.Bcmain>h2{
+    text-align: center;
+    color: #303030;
+    font-size: 1.3rem;
+    line-height: 1;
+    margin-top: 50px;
+}
+.Bcmain .quality{
+    width: 33.3%;
+    float: left;
+    margin-top: 50px;
+}
+.Bcmain .quality h2{
+    text-align: center;
+    color: #303030;
+    font-size: 1.3rem;
+    line-height: 1;
+}
+.Bcmain .quality p{
+    text-align: center;
+    color: #050505;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 10px 30px;
+}
+.Bcmain .quality img{
+    padding-left: 39%;
+    padding-top: 30px;
+}
+.Bcmain .quality .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+.Bcmain .midd{
+    background-image: url(../images/Bc/main/2002419.jpg);
+    overflow: hidden;
+    display: inline-block;
+}
+.Bcmain .midd h2{
+    font-size: 1.3rem;
+    line-height: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+.Bcmain .midd p{
+    color: #303030;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Bcmain .midd img{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 47%;
+}
+.Bcmain .lastline>h2{
+    width: 25%;
+    color: #b8b8b8;
+    line-height: 53px;
+    font-size: 3.1rem;
+    float: left;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.Bcmain .new{
+    width: 25%;
+    float: left;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.Bcmain .new img{
+    width: 230px;
+    height: 230px;
+}
+.Bcmain .new h2{
+    color: #A92113;
+    font-size: 1.3rem;
+    line-height: 1;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+.Bcmain .new p{
+    color: #484b54;
+    font-size: 15px;
+    line-height: 21px;
+    width: 250px;
+}
+/* end of main */
+
+/* footer */
+footer{
+    clear: both;
+}
+/* end of footer */
+@media screen and (max-width: 1366px){
+    .Bcmain .quality{
+        height: 80vh;
+    }
+    .Bcmain .midd{
+        height: 80vh;
+    }
+    .footer{
+        height: 70vh;
+    }
+}
+@media screen and (max-width: 978px){
+    .Bcmain h1{
+        width: 100%;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .Bcmain .midd{
+        width: 100%;
+        height: 110vh;
+    }
+    .Bcmain .midd img{
+        padding-left: 40%;
+    }
+    .Bcmain .quality{
+        width: 50%;
+    }
+    .Bcmain .quality .center{
+        padding-left: 30%;
+    }
+    .Bcmain .lastline h2{
+        width: 100%;
+        text-align: justify;
+    }
+    .Bcmain .lastline .new{
+        width: 33.3%;
+        padding-left: 15%;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width: 760px){
+    .Bcmain .lastline .new{
+        width: 50%;
+        float: left;
+    }
+}
+@media screen and (max-width: 460px){
+    .Bcmain .lastline .new{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 978px){
+    footer{
+        height: 70vh;
+    }
+    footer input{
+        margin: 10px 60px;
+        padding-top: 0;
+    }
+}
+
+
+/* --------------------------------------end of Bc ------------------------------------------------*/
+
+/* --------------------------------------The people----------------------------------------------- */
+
+.peoplemain h1{
+    background-image: url(../images/people/Capture1.PNG);
+    background-position: center;
+    background-size: auto;
+    height: 48vh;
+    color: rgb(255, 255, 255);
+    font-size: 3.3rem;
+    font-weight: bolder;
+    line-height: 1;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin: 0.67em 0;
+    padding-left: 50px;
+    padding-top: 70px;
+    display: block;
+}
+.peoplemain .people .peopleword{
+    width: 40%;
+    height: 50vh;
+    float: left;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.peoplemain .people1 .peopleword{
+    width: 40%;
+    height: 50vh;
+    float: left;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.peoplemain .people .peopleword h2{
+    font-size: 1.3rem;
+    line-height: 1;
+    text-align: left;
+    color: #303030;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+.peoplemain .people1 .peopleword h2{
+    margin-left: 53px;
+    font-size: 1.3rem;
+    line-height: 1;
+    text-align: left;
+    color: #303030;
+    margin-bottom: 20px;
+}
+.peoplemain .people .peopleword p{
+    width: 80%;
+    color: #050505;
+    font-size: 16px;
+    line-height: 25px;
+    margin-left: 50px;
+}
+.peoplemain .people1 .peopleword p{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    color: #050505;
+    font-size: 16px;
+    line-height: 25px;
+}
+.peoplemain .people img{
+    width: 60%;
+    height: 50vh;
+    float: left;
+    margin-bottom: 20px;
+}
+.peoplemain .people1 img{
+    width: 60%;
+    height: 50vh;
+    float: left;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+/* end of peoplemain */
+
+@media screen and (max-width: 1366px){
+    .peoplemain #center{
+        height: 40vh;
+    }
+}
+@media screen and (max-width: 760px){
+    .peoplemain h1{
+        font-size: 2.3rem;
+    }
+    .peoplemain  #center .peopleword{
+        width: 100%;
+        margin-bottom: 0px;
+        height: 35vh;
+    }
+    .peoplemain #center .peopleword h2{
+        margin-left: 0;
+        font-size: 1.2rem;
+    }
+    .peoplemain #center .peopleword p{
+        width: 100%;
+        font-size: 0.9rem;
+    }
+    .peoplemain #center img{
+        width: 100%;
+        height: 70vh;
+    }
+    .peoplemain #center{
+        width: 95%;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .peoplemain .people{
+        margin-bottom: 145vh;
+    }
+    .peoplemain .people .peopleword p{
+        margin-left: 0;
+    }
+}
+
+
+/* --------------------------------------end of people-------------------------------------------- */
+
+/* --------------------------------------wines----------------------------------------------------- */
+
+/* main */
+.winemain h1{
+    background-image: url(../images/wine/agri-tourism-farm-october-25-2019-009.jpg);
+    background-position: center;
+    background-size: auto;
+    height: 40vh;
+    color: #ffffff;
+    font-size: 4.6rem;
+    line-height: 1;
+    padding-top: 80px;
+    padding-left: 15%;
+    font-weight: bold;
+}
+.winemain .wines>h2{
+    color: #a92113;
+    font-weight: bold;
+    font-size: 1.3rem;
+    line-height: 26px;
+    padding-left: 40%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.winemain .bottles{
+    overflow: hidden;
+    width: 30.3%;
+    float: left;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
+.winemain .bottles .bottlePhoto{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    padding-left: 3%;
+}
+.winemain .bottles .botlins{
+    overflow: hidden;
+    width: 50%;
+    float: right;
+}
+.winemain .bottles .botlins h2{
+    color: #a92113;
+    font-weight: bold;
+    font-size: 1.3rem;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 60px;
+}
+.winemain .bottles .botlins p{
+    color: #3d3d3d;
+    font-size: 1.125rem;
+    line-height: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* end of wine */
+
+@media screen and (max-width: 1366px){
+    .peoplemain #center{
+        height: 40vh;
+    }
+}
+@media screen and (max-width: 1024px){
+    .winemain .bottles{
+        margin: 0;
+        width: 50%;
+    }
+    .winemain h1{
+        font-size: 2.3rem;
+    }
+}
+@media screen and (max-width: 640px){
+    .winemain .bottles{
+        width: 80%;
+        padding-left: 15%;
+        /* display: none; */
+    }
+    .winemain .bottles .botlins h2{
+        font-size: 1.62rem;
+    }
+    .winemain .bottles .botlins p{
+        font-size: 1.2rem;
+    }
+
+}
+/* --------------------------------------end of wines---------------------------------------------- */
+.myForm input{
+    background-color: red;
+}
